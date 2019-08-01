@@ -26,5 +26,4 @@ else
     gcloud config set run/region us-east1
 fi 
 
-
 gcloud beta run deploy ${PLUGIN_DEPLOYMENT} --image=${PLUGIN_REPO}:${PLUGIN_TAG} --quiet
